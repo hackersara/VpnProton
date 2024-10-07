@@ -39,6 +39,9 @@
 </style>
 
 <body>
+
+    <script src="main.js"></script>
+
     <!-- Header Section -->
         <div class="navbar"> 
             <div class="logo">
@@ -49,7 +52,7 @@
                 <nav >
                     <ul>
                         <li><a href="#">Home</a></li>
-                        <li><a href="#">Games</a></li>
+                        <li><a href="#" class="nav-button" onclick="scrollToSection('game-section')">Games</a></li>
                         <li><a href="#">Learning</a></li>
                         <li><a href="#">Investment</a></li>
                         <li><a href="#" class="login">Log In</a></li>
@@ -115,6 +118,45 @@
     </div>
     
     </section
+
+<!-- game section --> 
+
+<div id="game-section"  style="background-color: rgba(179, 120, 231, 0.699);">
+    <section>
+        <center>
+
+        <iframe src="https://cdn.htmlgames.com/ChaosMahjong/" 
+        width="600" height="400" 
+        style="border:none;" 
+        allowfullscreen>
+        </iframe>
+
+        <iframe src="https://cdn.htmlgames.com/HiddenSpotsTrains/" 
+        width="600" height="400" 
+        style="border:none;" 
+        allowfullscreen>
+        </iframe>
+
+        <iframe src="https://cdn.htmlgames.com/PlanetShooter/" 
+        width="600" height="400" 
+        style="border:none;" 
+        allowfullscreen>
+        </iframe>
+
+        <iframe src="https://cdn.htmlgames.com/SushiMasterMatch3/" 
+        width="600" height="400" 
+        style="border:none;" 
+        allowfullscreen>
+        </iframe>
+
+        <iframe src="https://cdn.htmlgames.com/ABCTiles/" 
+        width="600" height="400" 
+        style="border:none;" 
+        allowfullscreen>
+        </iframe>
+    </center>
+    </section>
+</div>
 
 
     <!-- trusted Section --> 

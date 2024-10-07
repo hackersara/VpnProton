@@ -25,8 +25,7 @@ a {
 
 .navbar .logo {
     font-size: 24px;
-    font-weight: bold;
-   
+    font-weight: bold;  
 }
 
 .navbar ul {
@@ -122,7 +121,11 @@ a {
     font-style: normal;    
 }
 
-
+/* game Section */
+#game-section {
+    display: flex;
+    justify-content: space-between;
+}
 
 /* Trusted Section */
 .trusted {
